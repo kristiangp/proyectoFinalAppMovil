@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campos comunes para diferentes tipos de formulario -->
+    <!-- Campos específicos serán añadidos dinámicamente según la selección -->
+
+    <EditText
+        android:id="@+id/editTextMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marca"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/editTextColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Color"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/editTextPlaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Placa"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/editTextModelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Modelo"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/editTextApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellido"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/editTextCedulaFormulario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cédula"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/editTextEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edad"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/editTextGenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Género"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/editTextNombreInsumo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Insumo"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/editTextPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/editTextReferencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Referencia"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar" />
+</LinearLayout>

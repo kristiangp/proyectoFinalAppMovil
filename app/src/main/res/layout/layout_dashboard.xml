@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewUserName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nombre del Usuario"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonCerrarSesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cerrar Sesión" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonClientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clientes" />
+
+    <Button
+        android:id="@+id/buttonVehiculos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vehículos" />
+
+    <Button
+        android:id="@+id/buttonInsumos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insumos" />
+
+    <Button
+        android:id="@+id/buttonVenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Venta" />
+</LinearLayout>

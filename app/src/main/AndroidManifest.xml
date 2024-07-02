@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProyectoFinal"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.view.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Agregar RegisterActivity -->
+        <activity
+            android:name=".ui.view.RegisterActivity"
+            android:exported="true" />
+
+        <!-- Agregar DashboardActivity -->
+        <activity
+            android:name=".ui.view.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.view.FormularioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.view.ListaItemsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.view.ListaVentasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.view.VentaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.view.ClientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.view.ProductSaleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.view.SaleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.view.SupplyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.view.VehicleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.view.ProductActivity"
+            android:exported="false" />
+
+        <!-- Agregar otras actividades aquí según sea necesario -->
+    </application>
+
+</manifest>
